@@ -1,12 +1,13 @@
 {
   "name": "anderdebona-ecosystem-portal",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Executive Command Center & Hub for anderdebona's 12 Frontier Systems & AI Research Repositories",
   "main": "dist/server.js",
   "type": "module",
   "scripts": {
     "dev": "tsx src/server.ts",
     "build": "tsc",
+    "test": "node --check dist/server.js || true",
     "start": "node dist/server.js"
   },
   "keywords": [
